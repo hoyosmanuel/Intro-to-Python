@@ -1,0 +1,28 @@
+# Step 1:
+# Create the empty dictionary
+GENEDICT ={}
+
+	
+#Step 2:
+# Initiate a while loop to allow for entering multiple items to the dictionary.
+while True:
+	# Request name
+	GENENAME = input("Enter the gene name: ")
+	# Set the exit
+	if GENENAME == 'exit':
+ 		break 
+ 		
+#Step 3:
+# Request description/aditional information
+	GENEINFO = input("Enter gene information: ")
+ 		
+ 		
+#Step 4:
+# Add information to the dictioonary
+	GENEDICT[GENENAME] = GENEINFO
+
+
+#Step 5: 
+#Print the dictionary and descriptions
+print("Genes associated to some diseases and their description")
+print(GENEDICT)
